@@ -1,12 +1,14 @@
 import React from 'react'
-import header from '../../Components/Admin/Header/header'
+// import Homepage from '../../Components/User/Homepage/Homepage'
+// import Header from '../../Components/User/Header/Header';
 function Home() {
   return (
     <div>
-       <header/>
+        {/* <Header/> */}
+       {/* <Homepage/> */}
        
     </div>
   )
 }
 
-export default Home
+export default Home;

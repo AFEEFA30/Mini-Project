@@ -1,0 +1,38 @@
+.header{
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+   justify-content:space-between;
+   align-items: center;
+   box-shadow: 0 2px ; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ img {
+        width: 115px;
+        height: auto;
+    }
+
+.navigation ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+.navigation ul li{
+      margin-right: 20px;
+}
+
+.navigation ul li:last-child{
+    margin-right: 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    color: rebeccapurple;
+}
+
