@@ -5,7 +5,6 @@ import AdminRouter from './Router/AdminRouter';
 import  LoginPage  from './Components/User/LoginPage/LoginPage';
   import SignupPage from './Components/User/SignUp/SignupPage';
 
-
 function App() {
   return (
      <>
