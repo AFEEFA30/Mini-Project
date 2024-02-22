@@ -8,8 +8,8 @@ function AdminRouter() {
     <div>
         <Routes>
             <Route  path="/" element={<Home />}/>
-             {/* <Route exact path="/login" element={<Login />}/>  */}
-            {/* <Route path="/editProduct" element={<EditProducts/>}/>  */}
+              <Route exact path="/login" element={<Login />}/>  
+             <Route path="/editProduct" element={<EditProducts/>}/>  
         </Routes> 
     </div>
   );
