@@ -1,13 +1,23 @@
 import React from 'react'
-//import Footer from '../../Components/User/Footer/Footer';
- //import Homepage from '../../Components/User/Homepage/Homepage'
- //import Header from '../../Components/User/Header/Header';
+// import Header from '../../Components/User/Header/Header';
+//import Homepage from '../../Components/User/Homepage/Homepage'
+ import Footer from '../../Components/User/Footer/Footer';
+//import Loginpage from '../../Components/User/LoginPage/LoginPage';
+//import SignupPage from '../../Components/User/SignUp/SignupPage';
+
+
+
+
 function Home() {
   return (
     <div>
-          {/* <Header/>   */}
+           {/* <Header/>    */}
        {/* <Homepage/> */}
-       {/* <Footer/> */}
+           <Footer/> 
+          {/* <Loginpage/>
+          <SignupPage/> */}
+
+     
        
     </div>
   )

@@ -16,11 +16,11 @@
 //        <div>
 //               <h1 className='headofA'>NEW ARRIVALS</h1>
 //       </div>
-//      {/* <div className='arrivalimage'>
-//       <img className="  "/>
-//       <img className=" "/>
-//       <img className=" "/>
-//      </div> */}
+    //  <div className='image'>
+    //   <img className="  "/>
+    //   <img className=" "/>
+    //   <img className=" "/>
+    //  </div> 
 //      <div className="shop-nowtwo">
 //       <button className="shop-nowtwo-button" onClick={onShopNowClick}>
 //         SHOP NOW

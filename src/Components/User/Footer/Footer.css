@@ -1,13 +1,16 @@
-.footer{
+/* .footer{
     background-color: #ffffff;
     padding: 20px 0;
 }
-
+.footer P {
+   color: brown
+}
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .footer-navigation ul{
     list-style-type: none;
@@ -31,4 +34,4 @@
 
 .footer-navigation ul li a :hover {
     text-decoration: underline;
-}
+}  */
