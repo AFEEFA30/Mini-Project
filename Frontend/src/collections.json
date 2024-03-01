@@ -1,0 +1,73 @@
+[
+
+    {
+        "id":1 ,
+        "name" : "churidar",
+        "price" :"1250RS",
+        "description" : " Churidar for Women",
+        "image" : "C:/react/miniproject/ecommerce/Frontend/src/Components/User/Assets/women img1.jpeg"
+    },
+    {
+        "id":2 ,
+        "name" : "Plain Pocket Abaya",
+        "price" :"1250RS",
+        "description" : "Plain Black Pocket Abaya",
+        "image" : "C:/react/miniproject/ecommerce/Frontend/src/Components/User/Assets/womenimg4.jpeg"
+    },
+
+    {
+        "id":3 ,
+        "name" : "Saree",
+        "price" :"3540RS",
+        "description" : "Indian Wedding Wear Saree",
+        "image" : "C:/react/miniproject/ecommerce/Frontend/src/Components/User/Assets/womenimg5.jpeg"
+    },
+    {
+        "id":4 ,
+        "name" : "Monochrome",
+        "price" :"2500RS",
+        "description" : " Monochrome style ",
+        "image" : "C:/react/miniproject/ecommerce/Frontend/src/Components/User/Assets/men img1.jpeg"
+    },
+
+    {
+        "id":5 ,
+        "name" : "Casual Style",
+        "price" :"1320RS",
+        "description" : "Casual Style Guide For Men ",
+        "image" : "C:\react/miniproject/ecommerce/Frontend/src/Components/User/Assets/men img2.jpeg"
+    },
+    {
+        "id":6 ,
+        "name" : "Dressing Style in Winter",
+        "price" :"",
+        "description" : "Dresing Style for Men in Winter",
+        "image" : "C:/react/miniproject/ecommerce/Frontend/src/Components/User/Assets/men img3.jpeg"
+    },
+   
+
+        
+    {
+        "id":7 ,
+        "name" : "Frock",
+        "price" :"2500RS",
+        "description" : "Frock for kids",
+        "image" : "C:/react/miniproject/ecommerce/Frontend/src/Components/User/Assets/kid img3.jpeg"
+    },
+    {
+        "id":8 ,
+        "name" : "Summer Dress",
+        "price" :"1240RS",
+        "description" : "Children's Summer Dress",
+        "image" : "C:/react/miniproject/ecommerce/Frontend/src/Components/User/Assets/kid img1.jpeg"
+    },
+
+    
+    {
+        "id":9 ,
+        "name" : "Winter Outfit",
+        "price" :"1350",
+        "description" : "Winter outfit for kids ",
+        "image" : "C:\react/miniproject/ecommerce/Frontend/src/Components/User/Assets/kid img4.jpeg"
+    }
+]

@@ -2,13 +2,12 @@
     background-color: #ffffff;
     padding: 20px 0;
 }
-.footer P {
-   color: brown
-}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 
@@ -27,11 +26,11 @@
     margin-right: 0;
 }
 
-/* .footer-navigation ul li a {
+ .footer-navigation ul li a {
     text-decoration: none;
-    color:#ffffff;
-} */
-/* 
-.footer-navigation ul li a :hover {
+    color:darkblue;
+} 
+
+.footer-navigation ul li a :hover{
     text-decoration: underline;
-}  */
+}  

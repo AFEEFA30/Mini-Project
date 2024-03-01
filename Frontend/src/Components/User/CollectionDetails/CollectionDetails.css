@@ -1,0 +1,70 @@
+.collection-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.collection{
+    margin:10px;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width:300px;
+    align-items: center;
+}
+
+.collection{
+    display: grid;
+    margin:10px;
+    border:2px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 9px;
+    width:100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.collection-image{
+    height: 250px;
+    width: 200px;
+}
+
+.collection-details{
+    align-items: center;
+    place-items: center;
+    grid-template-columns: 1fe 1fr 1fr;
+}
+
+.collection-name{
+    font-size: 1.2rem;
+    place-items: center;
+    margin-bottom: 30px;
+    font-family: Arial,  sans-serif;
+    grid-template-columns: 1fe 1fr 1fr ;
+}
+.collection-price{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: brown;
+    transition: transform 0.3s ease-in-out;
+}
+.collection-description{
+    text-align: center;
+    font-size: small;
+    font-weight: 300n;
+}
+
+.shopping-cart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: Arial,  sans-serif;
+    justify-content: center;
+}
