@@ -9,6 +9,7 @@ const LoginSignup = () => {
       const [formData,setFormData] = useState({
         username:"",
         password:"",
+        confirmPassword:"",
         email:""
       })
 
@@ -49,7 +50,11 @@ const LoginSignup = () => {
         <div className='loginsignup-fields'>
           {state==="Sign Up"?<input name='username'value={formData.username} onChange={changeHandler} type="text" placeholder=' Name' />:<></>}
           <input name='email'value={formData.email} onChange={changeHandler} type="email"placeholder='Email Address'/>
-          <input name='password' value={formData.password} onChange={changeHandler}type="password"placeholder='password'/>
+         <input name='password' value={formData.password} onChange={changeHandler}type="password"placeholder='password'/>
+         <input name=' confirm password' value={formData.confirmPassword} onChange={changeHandler}type="confirm password"placeholder='confirm password'/>
+          
+          
+
         </div>
         <button onClick={()=>{state==="Login"?login():signup()}}>Continue</button>
         {state==="Sign Up"

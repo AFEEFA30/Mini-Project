@@ -1,8 +1,12 @@
  .header{
+   background-color:pink;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center; 
     display: flex;
-    padding: 16px;
-   justify-content:space-around;
-   box-shadow: 0 1px 3px -2px black;
+    padding: 5px;
+   box-shadow: 0 1px 3px -2px black; 
 } 
 
  .header-logo{
@@ -54,28 +58,13 @@ p{
     height: 3px;
     width:80px;
  } 
-
+ 
  .nav-login-cart{
    gap: 45px;
    display: flex;
    align-items: center;
- }
- .nav-login-cart button{
-   outline: none;
-   border: 1px solid #7a7a7a;
-   border-radius: 75px;
-   font-size: 15px;
-   font-weight:10;
-   background: white;
-   cursor: pointer;
-   width:110px;
-    height:30px;
-   
-} 
+ } 
 
- .nav-login-cart button:active{
-   background:gray;
-} 
 
      
 

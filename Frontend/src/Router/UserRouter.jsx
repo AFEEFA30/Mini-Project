@@ -7,7 +7,8 @@ import Home from '../Pages/User/Home';
 import Contact from '../Components/User/Contact/Contact';
 import CollectionDetailsPage from '../Pages/User/CollectionDetailsPage';
 import LoginSignup from '../Components/User/LoginSignup/LoginSignup';
-import Cart from '../Components/User/Cart/Cart';
+// import Cart from '../Components/User/Cart/Cart';
+// import CollectionList from '../Components/User/CollectionList/CollectionList';
 
 
 
@@ -18,7 +19,7 @@ import Cart from '../Components/User/Cart/Cart';
       <Route path='/' element={<Home/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/collections' element={<CollectionDetailsPage/>}/>
-      <Route path='/cart' element={<Cart/>}/>
+      {/* <Route path='/collections' element={<CollectionList/>}/> */}
       <Route path='/login' element={<LoginSignup/>}/>
       {/* <Route path='/SignUP' element={<SignUP/>}/>
       <Route path='/Login' element={<Login/>}/>

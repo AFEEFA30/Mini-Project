@@ -1,0 +1,41 @@
+.adminCollection {
+    margin: 10px;
+  }
+  .adminCollection h1{
+    color: brown;
+    text-align: center;
+  }
+  
+  .collectionListTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+ .collectionListTable  img{
+    width: 200px;
+    height: 200px;
+} 
+  
+  .collectionListTable th,
+  .collectionListTable td {
+    border: 1px solid #ddd;
+    padding:8px;
+    text-align: left;
+  }
+  
+  .collectionListTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .collection-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .collection-btn:active {
+    background-color:red;
+  }

@@ -1,5 +1,83 @@
+ .AdminHeader {
+  background-color: gray;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+} 
 
-  
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; 
+  height: auto;
+  margin-right: 10px;
+}
+
+ .nav-menu{
+  display: flex;
+  justify-content: space-between;
+  margin:0;
+  list-style-type: none;
+  color: brown;
+  align-items: center;
+  padding: 10px 60px;
+}
+
+.nav-menu h2{
+  margin: 0;
+  font-size: 1.5rem;
+} 
+
+  .nav-bar{
+      display: flex;
+      color: #626262;
+      align-items: center;
+      gap:50px;
+      list-style: none;
+      font-size: 20px;
+      font-weight: 500; 
+   } 
+    
+   .nav-bar li{
+        display: flex;
+        align-items: center; 
+        justify-content:space-between;
+        flex-direction: column; 
+        gap:3px;
+        cursor :pointer; 
+   }
+ .nav-bar hr{
+      background: red;
+      border-radius: 10px;
+      border:none;
+  }  
+ .logout-btn{
+  background-color: #007bff;
+  border: none; 
+  padding: 8px 16px; 
+  border-radius: 4px; 
+  color:white; 
+  cursor: pointer; 
+} 
+
+ .logout-btn:hover{
+  background-color:#007bff; 
+}  
+
+
+
+
+ 
+
+
+
+
+ 
+
 
 
 

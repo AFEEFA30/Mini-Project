@@ -1,0 +1,54 @@
+.collection-list-container {
+    margin: 20px;
+
+  }
+  .collection-list-container h1{
+     color: brown;
+     text-align: left;
+  }
+  
+  .collection-table {
+    width: 50%;
+    border-collapse: collapse;
+    
+  }
+  
+  .collection-table th, .collection-table td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .collection-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .blocked {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .unblocked {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .blocked:hover, .unblocked:hover {
+    background-color:#555;
+  }

@@ -9,8 +9,8 @@ function Footer() {
             <ul>
                 <li><a href="/">Shop</a></li>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="/product">Product </a></li>
-                <li><a href="/about">about</a></li>
+                <li><a href="/collections">Collections</a></li>
+                <li><a href="/login">Login</a></li>
             </ul>
         </nav>
     </div>

@@ -1,10 +1,12 @@
 import React from 'react';
 import CollectionDetails from '../../Components/User/CollectionDetails/CollectionDetails';
 
+
+
 function CollectionDetailsPage() {
   return (
     <div>
-       <CollectionDetails/>
+   <CollectionDetails/>
 
     </div>
   )

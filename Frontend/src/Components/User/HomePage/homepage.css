@@ -1,0 +1,53 @@
+.home{
+    display: flex;
+    margin: auto;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, pink 0%, #e1ffea22 60%);
+}
+
+.home-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-left h1{
+    font-size: 50px;
+    font-weight: 600;
+    color :black;
+    margin-left: 1px;
+}
+
+.home-left p{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+}
+ .home-left img{
+    width: 200px;
+    height: 600;
+} 
+
+.home-left button{
+    background-color: orangered;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.home-right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding-top: 40px;
+    align-items: center;
+}

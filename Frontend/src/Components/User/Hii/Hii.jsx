@@ -20,7 +20,7 @@ function Hii() {
     </div>
    </div>
    <div className='hii-right-img'>
-   <img src ="https://th.bing.com/th/id/OIP.4n1c9e2qjMrynEdlsSWuTQHaEo?w=219&h=180&c=7&r=0&o=5&pid=1.7" height={300}width={350}>
+   <img src ="https://th.bing.com/th/id/OIP.4n1c9e2qjMrynEdlsSWuTQHaEo?w=219&h=180&c=7&r=0&o=5&pid=1.7">
    </img>
 
     </div>
